@@ -1,0 +1,8 @@
+services:
+  merkle:
+    build: .
+    image: rushi5706/merkle-ethereum:latest
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
